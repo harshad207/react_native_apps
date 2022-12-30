@@ -17,7 +17,7 @@ import Textinput from './component/Textinput';
 import {adminlogin} from '../lib/Service';
 
 const LoginScreen = ({navigation}) => {
-  const [hide, SetHide] = useState(false);
+  const [hide, SetHide] = useState(false); 
   const {
     setValue,
     handleSubmit,
